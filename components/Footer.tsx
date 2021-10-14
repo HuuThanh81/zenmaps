@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <div className="bg-alabaster">
-            <div className="flex lg:container mx-auto justify-between text-left text-gray-600 py-60 ">
+            <div className="flex container mx-auto justify-between text-left text-gray-600 py-60 ">
                 <div className=" flex flex-col font-Lexend-Deca w-276">
                     <Link href="/">
                         <img srcSet="/logo.png 2x" alt="logo zenmaps" className="h-59 w-149"/>

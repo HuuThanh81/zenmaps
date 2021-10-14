@@ -12,8 +12,8 @@ module.exports = {
       'Lexend-Deca': ['Lexend Deca', 'sans-serif'],
     },
     screens: {
-      'sm': {'max':'576px'},
-      'md': {'max':'768px'},
+      'sm': '576px',
+      'md': '768px',
       'lg': '992px',
       'xl': '1200px',
       '2xl': '1440px',

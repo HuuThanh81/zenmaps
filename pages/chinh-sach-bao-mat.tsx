@@ -15,7 +15,28 @@ export default function ChinhSachBM() {
             </Head>
             <Navbar />
       <main className={styles.main}>
-            <h1>Chính sách bảo mật</h1>
+            <h1 className="text-xl uppercase font-semibold">Chính sách bảo mật</h1>
+            <div className="container ">
+                <h2 className=" font-semibold ">1. Mục đích thu thập thông tin.</h2>
+                <p>Remaps.vn luôn cố gắng để những thông tin được đăng trên trang Remaps.vn là hữu ích và chính xác nhất. Để thực hiện điều đó, Remaps.vn yêu cầu thành viên phải cung cấp đầy đủ và chính xác mọi thông tin tại Remaps.vn</p>
+                <p>Các thông tin mà Remaps.vn có thể thu thập từ thành viên bao gồm: họ tên, giới tính, ngày sinh, email, mã số thuế, địa chỉ, điện thoại, nghề nghiệp, nơi làm việc và các thông tin cần thiết khác.</p>
+                <h2 className=" font-semibold ">2. Phạm vi sử dụng thông tin.</h2>
+                <p>Các thông tin được thành viên cung cấp có thể dùng vào các mục đích sau:</p>
+                <ul>
+                    <li>Cung cấp dịch vụ trên Remaps.vn mà thành viên yêu cầu.</li>
+                    <li>Gửi thông tin giới thiệu dịch vụ trên Remaps.vn đến thành viên.</li>
+                    <li>Phân tích, đánh giá và hoàn thiện sản phẩm, dịch vụ (kể cả website), công nghệ, quy trình.</li>
+                    <li>Nâng cao mối tương tác và liên kết với thành viên.</li>
+                    <li>Giải quyết các vấn đề tranh chấp, khiếu nại phát sinh liên quan đến việc sử dụng Remaps.vn.</li>
+                    <li>Ngăn chặn những hoạt động vi phạm pháp luật tại Việt Nam.</li>
+                    <li>Nếu không có sự đồng ý của thành viên, Remaps.vn sẽ không cung cấp bất kỳ thông tin nào liên quan đến thành viên cho bên thứ ba để sử dụng với mục đích quảng cáo.</li>
+                </ul>
+                <h2 className=" font-semibold ">3. Thời gian lưu trữ thông tin.</h2>
+                <h2 className=" font-semibold ">4. Những người hoặc tổ chức có thể được tiếp cận với thông tin cá nhân người tiêu dùng.</h2>
+                <h2 className=" font-semibold ">5. Địa chỉ của đơn vị chủ quản Sàn giao dịch thương mại điện tử Remaps.vn.</h2>
+                <h2 className=" font-semibold ">6. Phương tiện và công cụ để người dùng tiếp cận và chỉnh sửa dữ liệu thành viên.</h2>
+                <h2 className=" font-semibold ">7. Cam kết bảo mật thông tin thành viên.</h2>
+            </div>
       </main>
 
       <Footer />
