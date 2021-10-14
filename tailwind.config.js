@@ -1,0 +1,102 @@
+module.exports = {
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    fontSize: {
+      sm: ['14px', '20px'],
+      base: ['16px', '24px'],
+      lg: ['20px', '28px'],
+      xl: ['24px', '32px'],
+    },
+    fontFamily: {
+      'Lexend-Deca': ['Lexend Deca', 'sans-serif'],
+    },
+    screens: {
+      'sm': {'max':'576px'},
+      'md': {'max':'768px'},
+      'lg': '992px',
+      'xl': '1200px',
+      '2xl': '1440px',
+    },
+    extend: {
+      colors: {
+        pomegranate: {
+          DEFAULT: '#F53838',
+          50: '#FFFFFF',
+          100: '#FFFAFA',
+          200: '#FCCACA',
+          300: '#FA9999',
+          400: '#F76969',
+          500: '#F53838',
+          600: '#EE0C0C',
+          700: '#BD0A0A',
+          800: '#8D0707',
+          900: '#5C0505'
+        },
+        burnsienna: {
+          DEFAULT: '#EB5757',
+          50: '#FFFFFF',
+          100: '#FFFFFF',
+          200: '#FBE0E0',
+          300: '#F6B2B2',
+          400: '#F08585',
+          500: '#EB5757',
+          600: '#E62929',
+          700: '#C51717',
+          800: '#971212',
+          900: '#690D0D'
+        },
+        poloblue: {
+          DEFAULT: '#8490C8',
+          50: '#FFFFFF',
+          100: '#FFFFFF',
+          200: '#EEEFF7',
+          300: '#CAD0E8',
+          400: '#A7B0D8',
+          500: '#8490C8',
+          600: '#6170B8',
+          700: '#47579F',
+          800: '#37437C',
+          900: '#283058'
+        },
+        alabaster: {
+          DEFAULT: '#F8F8F8',
+          50: '#FFFFFF',
+          100: '#FFFFFF',
+          200: '#FFFFFF',
+          300: '#FFFFFF',
+          400: '#FFFFFF',
+          500: '#F8F8F8',
+          600: '#DFDFDF',
+          700: '#C5C5C5',
+          800: '#ABABAB',
+          900: '#929292'
+        },
+      },
+    },
+    spacing: {
+      '1': '8px',
+      '5':'5px',
+      '2': '12px',
+      '10':'10px',
+      '14':'14px',
+      '3': '16px',
+      '4': '20px',
+      '24':'24px',
+      '32':'32px',
+      '34':'34px',
+      '6': '48px',
+      '40':'40px',
+      '59':'59px',
+      '60':'60px',
+      '67':'67px',
+      '149':'149px',
+      '161':'161px',
+      '276':'276px',
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
