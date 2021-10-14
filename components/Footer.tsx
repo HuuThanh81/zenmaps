@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import React from 'react'
 
-function Footer() {
+const Footer = () => {
     return (
         <div className="bg-alabaster">
             <div className="flex lg:container mx-auto justify-between text-left text-gray-600 py-60 ">
                 <div className=" flex flex-col font-Lexend-Deca w-276">
-                    <Link href="/" className="">
+                    <Link href="/">
                         <img srcSet="/logo.png 2x" alt="logo zenmaps" className="h-59 w-149"/>
                     </Link>
                     <a className="pt-10 pb-5">CÔNG TY CỔ PHẦN REMAPS</a>
@@ -46,9 +45,9 @@ function Footer() {
                 </div>
                 <div className="flex flex-col font-Lexend-Deca w-161 mr-67">
                     <h5 className="text-black">Giới Thiệu</h5>
-                    <a  className="pt-4">Chính sách bảo mật</a>
-                    <a  className="pt-10">Quy chế hoạt động</a>
-                    <a  className="pt-10">Hướng dẫn</a>
+                    <p className="pt-4"><Link href="/chinh-sach-bao-mat">Chính sách bảo mật</Link></p>
+                    <p className="pt-10"><Link href="/quy-che-hoat-dong">Quy chế hoạt động</Link></p>
+                    <p className="pt-10"><Link href="/huong-dan">Hướng dẫn</Link></p>
                 </div>
                 <div className="flex flex-col font-Lexend-Deca w-161">
                     <h5 className="text-black">Tổng đài CSKH</h5>

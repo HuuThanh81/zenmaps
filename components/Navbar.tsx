@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Navbar = () => {
     return (
         <div className="sm:py-4 sm:px-4 sm:mt-5 mt-40 mb-4 container mx-auto flex justify-between items-center h-60 bg-white text-black relative">
-            <Link href="/" className="">
+            <Link href="/">
                 <img srcSet="/logo.png 2x" alt="logo zenmaps"/>
             </Link>
             <div className="cursor-pointer lg:hidden">
